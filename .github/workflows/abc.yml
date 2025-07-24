@@ -8,12 +8,12 @@ name: workflow1-runs linux commands
 on: workflow_dispatch
 jobs: 
   Job1:
-    run_on: ubuntu-latest 
+    runs_on: ubuntu-latest 
     steps:
       - name: Executing a linux command
         run: echo "HEllo GOOD MORNING!"
   Job2: 
-   run_on: ubuntu-24.04
+   runs_on: ubuntu-24.04
    steps:
     - name: Execute set of linux commands
       run: |
