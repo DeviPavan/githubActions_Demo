@@ -8,7 +8,7 @@ name: workflow1-runs linux commands
 on: workflow_dispatch
 jobs: 
   Job1:
-    run_on: ubuntu-latest machines
+    run_on: ubuntu-latest 
     steps:
       - name: Executing a linux command
         run: echo "HEllo GOOD MORNING!"
